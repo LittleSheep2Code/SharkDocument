@@ -1,0 +1,25 @@
+{
+  "name": "LumbaShark",
+  "version": "0.0.1",
+  "description": "A developer friendly authorization service",
+  "main": "index.js",
+  "authors": {
+    "name": "LittleSheep",
+    "email": "littlesheep.code@hotmail.com"
+  },
+  "repository": "https://gitee.com/smartsheep-studio/SharkUI/LumbaShark",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-dark": "^0.1.0"
+  },
+  "dependencies": {
+    "vue-tabs-component": "^1.5.0",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-tabs": "^0.3.0"
+  }
+}
